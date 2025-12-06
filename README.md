@@ -4,7 +4,9 @@ In this repository different implementations of the Normalized Laplacian Pyramid
 
 **TLDR:** 
 
-· If you only need to evaluate it, use 'NLPdist_RGB'
+· If you only need to evaluate it in regular images, use 'NLPdist_RGB'. 
+
+· If you need to evaluate it using calibrated images (in cd/m2), use 'NLPdist_lum'. 
 
 · If you need to optimize it, use the the Tensorflow or the PyTorch versions. 
 
